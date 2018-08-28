@@ -1,0 +1,54 @@
+
+.logocontenedor{
+    width: 200px;
+    height: 120px;
+    left: 30px;
+    border-radius: 0 0 10px 10px;
+    position: absolute;
+    background-image: url('../img/GettyImages-506296056-1550-1033-1550x804.jpg');
+    box-shadow: 0 5px 30px -10px rgba(0, 0, 0, 0.75);
+    
+}
+
+.logocontenedor img{
+    margin-top: 20px;
+    width: 40%;
+    height: 75px;
+    
+}
+
+.logocontenedor img:hover{
+    
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+    transition:all .5s ease-in-out;
+}
+
+@media (max-width: 1024px){
+    .logocontenedor{
+          width: 75px;
+          height: 50px;
+          left: 15px;
+          border-radius: 0 0 0 0;
+          background-color: rgb(251, 238, 130);
+          position: absolute;
+          box-shadow: none;
+    }
+    
+    .logocontenedor img{
+        margin-top: 1px;
+    width: 60%;
+    height: 45px;
+    
+}
+
+.logocontenedor img:hover{
+    
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    transition:all .5s ease-in-out;
+}
+    
+}
+
+
